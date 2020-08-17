@@ -6,6 +6,10 @@ plugins {
 group = "uz.dkamaloff.gems.dependencies"
 version = "SNAPSHOT"
 
+repositories {
+    jcenter()
+}
+
 gradlePlugin {
     plugins.register("dependencies") {
         id = "dependencies"
