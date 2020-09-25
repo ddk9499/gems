@@ -1,7 +1,7 @@
 package uz.dkamaloff.gems.dependencies
 
 object Deps {
-    private const val kotlinVersion = "1.3.72"
+    private const val kotlinVersion = "1.4.10"
 
     val kotlin = Kotlin("org.jetbrains.kotlin")
     val android = Android
@@ -12,6 +12,6 @@ object Deps {
     }
 
     object Android {
-        const val plugin = "com.android.tools.build:gradle:3.6.0"
+        const val plugin = "com.android.tools.build:gradle:4.0.1"
     }
 }
