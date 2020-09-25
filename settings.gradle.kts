@@ -7,3 +7,4 @@ pluginManagement {
 }
 
 includeBuild("includedBuild/dependencies")
+includeBuild("includedBuild/gradleConfiguration")
